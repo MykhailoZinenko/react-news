@@ -15,5 +15,5 @@ export const formatTimeAgo = (dateString) => {
         return `${hoursPast}h ago`;
     }
     const daysPast = Math.floor(hoursPast / 24);
-    return day === 1 ? `${daysPast} day ago` : `${daysPast} days ago`;
+    return daysPast === 1 ? `${daysPast} day ago` : `${daysPast} days ago`;
 };
