@@ -7,6 +7,10 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.html {
+  scroll-behavior: smooth;
+}
+
 .container {
   padding: 24px;
 }
